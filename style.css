@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+                    /* BANNER SECTION */
+
+.bg{
+    background: url(images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.banner-text{
+    text-align: center;
+    color: rgb(247, 213, 213);
+    padding-top: 180px;
+}
+
+.banner-text h1{
+    font-size: 120px;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(210, 241, 241);
+    
+}
+
+.banner-btn{
+    margin: 70px auto 0;
+    size: 10px;
+}
+
+.banner-btn a{
+    width: 100px;
+    text-decoration: none;
+    display: inline;
+    margin: 0 10px;
+    padding: 12PX 0;
+    color: #fff;
+    border: .5px solid rgb(194, 159, 159);
+    border-radius: 20px;
+    position: relative;  
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(231, 206, 206);
+    z-index: -1;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+   color: rgb(26, 13, 10);
+}
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background-color: rgb(58, 141, 133);
+    z-index: 2;
+    transition: .5s;
+
+}
+
+nav ul{
+    padding-top: 50px;
+}
+
+nav ul li{
+list-style: none;
+margin: 50px 20px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: wheat;
+
+}
+nav ul li:hover a{
+    padding-left: 30px;
+}
+nav ul a {
+    transition: .5s;
+}
+
+
+#menuBtn .me{
+    width: 40px;
+    height: 40px;
+    background-color: teal;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    color: snow;
+    font-display: none;
+    
+
+}
+
+#menuBtn i{
+    width: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+                      /* ABOUT US PAGE SECTION  */
+
+.abt{
+    color: rgb(12, 5, 5);
+    font-family: 'roboto' sans-serif; font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 2em;
+    
+    
+}
+
+.abt span{
+    color: rgb(92, 26, 14);
+    font-weight:700 ;
+    font-size: 1.5em;
+}
+.aboutimg{
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+  
+}
+
+.row{
+    display: flex;
+    height: 88%;       
+    }
+
+    section{
+        padding: 50px;
+    }
+    
+    .coll{
+        flex-basis: 50%;
+        padding: 30px;
+    }
+
+    .button{
+        color: #000;
+        font-size: 12px;
+        padding: 15px 25px;
+        background: linear-gradient(to right, transparent 50%, #c72259 50%);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+        border: 2px solid #009688;
+        border-radius: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }
+    
+    .button:hover{
+        background-position: right;
+        color: tomato;
+    }
+
+                              /* OUR MENU SECTION  */
+
+    .ourm{
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: rgb(246, 249, 250);
+        
+        
+    }
+    .ourm h1{
+        color: rgb(49, 10, 10);
+        font-family: 'roboto' sans-serif; font-size: 20px;
+        margin-bottom: 5px;
+        font-size: 2em;   
+    }
+
+    .ourm p{
+        font-size: 20px;
+        color: teal;
+    }
+     
+    .ourm span{
+        color: rgb(228, 56, 26);
+        font-weight:700 ;
+        font-size: 1.5em;
+    }
+
+    .menus .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        margin-top: 40px;
+          
+    }
+
+    .menus .content .box1{
+      width: 340px;
+      margin: 20px;
+      border: 15px solid #fff;
+      box-shadow: 0 5px 35px rgba(0,0,0,0,08);
+    }
+
+    .menus .content .box1 .box{
+        position: relative;
+        width: 100%;
+        height: 300px;
+    
+    }
+
+    .menus .content .box1 .box img{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+
+    }
+
+    .menus .content .box1 .text{
+        padding: 15px 0 5px;
+        font-size: 20px;
+        color: rgb(6, 10, 238);
+    }
+
+    .ourBtn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ourmBtn{
+        color: #000;
+        font-size: 12px;
+        padding: 15px 25px;
+        background: linear-gradient(to right, transparent 50%, #57add4 50%);
+        background-size: 200%;
+        background-position: left;
+        transition: background-position 0.5s;
+        border: 2px solid #009688;
+        border-radius: 20px;
+        cursor: pointer;
+        text-decoration: none;   
+        
+    }
+    
+    .ourmBtn:hover{
+        background-position: right;
+        color: tomato;
+    }
+
+
+                                /* OUR KITCHEN EXPERTS */
+
+.oke{
+    background: rgb(250, 245, 245);
+}
+.okes{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.okes h1{
+    color: rgb(49, 10, 10);
+    font-family: 'roboto' sans-serif; font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 2em;   
+}
+
+.okes p{
+    font-size: 20px;
+    color: teal;
+}
+    
+.okes span{
+    color: rgb(228, 56, 26);
+    font-weight:700 ;
+    font-size: 1.5em;
+}
+
+.oke .content2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+        
+}
+
+.oke .content2 .box2{
+    width: 250px;
+    margin: 15px;
+   
+}
+
+.oke .content2 .box2 .cube{
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+}
+
+.oke .content2 .box2 .cube img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.oke .content2 .box2 .text{
+    padding: 10px 0 5px;
+    font-size: 20px;
+    color: rgb(238, 6, 161);
+}
+
+
+
+
+                                /* TESTIMONIES OF SOMEONE FAMOUS */
+.test{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.test h1{
+    color: rgb(49, 10, 10);
+    font-family: 'roboto' sans-serif; font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 2em;   
+}
+
+.test p{
+    font-size: 20px;
+    color: teal;
+}
+    
+.test span{
+    color: rgb(228, 56, 26);
+    font-weight:700 ;
+    font-size: 1.5em;
+}
+
+.testimony .content3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+        
+}
+
+.testimony .content3 .box3{
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    background: rgb(252, 250, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+
+.testimony .content3 .box3 .cube {
+    position:relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.testimony .content3 .box3 .cube img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimony .content3 .box3 .text{
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(238, 6, 161);
+    text-align: center;
+}
+
+.testimony .content3 .box3 .text h3{
+    margin-top: 20px;
+}
+
+
+
+
+
+.contact{
+    background: url(images/bgfoot.jpg);
+    background-size: cover;
+}
+.titleText{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.titleText h1{
+    color: rgb(49, 10, 10);
+    font-family: 'roboto' sans-serif; font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 2em;   
+}
+
+.titleText p{
+    font-size: 20px;
+    color: teal;
+}
+    
+.title span{
+    color: rgb(228, 56, 26);
+    font-weight:700 ;
+    font-size: 1.5em;
+}
+
+.cF{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactForm{
+    padding: 75px 50px;
+    background: snow;
+    box-shadow: 0 15px 50px rgba(0,0,0,0,1);
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.contactForm h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight:300px ;
+    resize: none;
+}
+.contactForm .inputBox input[ type="submit" ]{
+    font-size: 1em;
+    color: #fff;
+    background: rgb(33, 56, 92);
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+
+}
+
+.addRess{
+    padding-top: 100px;
+}
+.addRess p{
+    margin: 20px;
+}
+
+.emojis {
+    text-align: center;
+   color: rgb(8, 92, 219);
+   font-size: 20px;
+   text-decoration: none;
+   padding-top: 40px;
+    }
+
+  .emojis li {
+    display: inline;
+    padding: 20px;
+   
+  }
+  .emojis li a{
+      text-decoration: none;
+    
+  }
+
+
+            /* COPYRIGHT SECTION  */
+.copyRight{
+padding: 8px 40px;
+border-top: 1px solid aliceblue;
+text-align: center;
+background: aliceblue;
+}
+
+
+@media all and (max-width: 500px){
+    .bg{
+        padding:0;
+        flex-direction: column;
+        text-align: center;
+        background-size: 100%;
+        margin-right: 0;
+    }
+     .aboutimg{
+        height: 60%;
+        width: 60%;
+    }
+    .banner-text h1{
+        font-size: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+.banner-text p{
+    font-size: 10px;
+}
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .coll{
+        flex-direction: column;
+        align-items: center;     
+    }
+
+    .abt{
+        text-align: center;
+    }
+    
+
+.cF{
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+
+@media all and (min-width:500 -700px){
+    .aboutimg{
+        height: 60%;
+        width: 60%;
+    }
+}
